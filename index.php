@@ -45,8 +45,7 @@ try {
 
   $sql = "SELECT * FROM new_table";
   $result = $conn->query($sql);
-
-
+  
   $conn->close();
 
 } catch (\Throwable $th) {
